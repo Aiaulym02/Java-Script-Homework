@@ -1,17 +1,19 @@
+//1
 let question;
 let score = 5;
 
 do {
-  question = +prompt("Қазақстан қай жылы тәуелсіздігін алды?");
+  let question = +prompt("Қазақстан қай жылы тәуелсіздігін алды?");
   if (question != 1991) {
     score--;
   } else {
     break;
   }
 } while (true);
-
 alert(score);
+//2
 
+//3есеп
 var num1 = +prompt("");
 var num2 = +prompt("");
 var result4 = 1;
