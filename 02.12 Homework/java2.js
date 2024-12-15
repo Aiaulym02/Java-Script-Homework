@@ -20,5 +20,5 @@ const librarry = {
     return `Сіз ${this.author} авторының ${this.title} кітабын оқып жатырсыз!`;
   },
 };
-
+console.log(librarry.addLibrarry());
 console.log(librarry.addBooks());
