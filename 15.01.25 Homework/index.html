@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ауа райы</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+      .container {
+        margin-top: 50px;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+      }
+      button {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 5px;
+        background-color: gray;
+      }
+      .result {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Қаланың ауа райын тексеру</h1>
+      <input type="text" id="city" placeholder="Қаланы енгізіңіз" />
+      <button onclick="getWeather()">Ауа райын тексеру</button>
+      <div id="result" class="result"></div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
